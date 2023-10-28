@@ -1,12 +1,13 @@
 import styles from "./css/page.module.css"
 import playersList from "./data/players.json"
+import Player from "./components/player/player"
 
 export default function Home() {
 	return (
 		<main className={styles.main}>
 			<section className={styles.map}>
 				{playersList.map((player) => (
-					<li className={styles.player}>{player}</li>
+					<Player name={player} />
 				))}
 			</section>
 		</main>

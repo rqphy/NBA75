@@ -8,3 +8,7 @@
 	width: 100%;
 	background-color: var(--color-background);
 }
+
+.player {
+	color: var(--color-primary);
+}

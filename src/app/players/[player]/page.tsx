@@ -1,11 +1,7 @@
-import { FC } from "react"
-
 interface pageProps {
 	params: { player: string }
 }
 
-const page: FC<pageProps> = ({ params }) => {
+export default function page({ params }: pageProps) {
 	return <div>{params.player}</div>
 }
-
-export default page

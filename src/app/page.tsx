@@ -7,7 +7,7 @@ export default function Home() {
 		<main className={styles.main}>
 			<section className={styles.map}>
 				{playersList.map((player) => (
-					<Player name={player} />
+					<Player name={player.name} uid={player.uid} />
 				))}
 			</section>
 		</main>

@@ -3,12 +3,13 @@ import styles from "./player.module.css"
 
 interface playerProps {
 	name: string
+	uid: number
 }
 
-export default function Player({ name }: playerProps) {
+export default function Player({ name, uid }: playerProps) {
 	return (
 		<li className={styles.player}>
-			<Link href={`/players/${name}`}>{name}</Link>
+			<Link href={`/players/${uid}`}>{name}</Link>
 		</li>
 	)
 }

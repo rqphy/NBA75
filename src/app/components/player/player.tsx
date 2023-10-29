@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./player.module.css"
 
 interface playerProps {
@@ -5,5 +6,9 @@ interface playerProps {
 }
 
 export default function Player({ name }: playerProps) {
-	return <li className={styles.player}>{name}</li>
+	return (
+		<li className={styles.player}>
+			<Link href={`/players/${name}`}>{name}</Link>
+		</li>
+	)
 }

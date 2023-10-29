@@ -5,5 +5,5 @@ interface pageProps {
 }
 
 export default function page({ params }: pageProps) {
-	return <Player name={params.player} />
+	return <h1>{params.player}</h1>
 }

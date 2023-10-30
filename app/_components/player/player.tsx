@@ -10,7 +10,7 @@ interface playerProps {
 export default function Player({ name, uid, index }: playerProps) {
 	return (
 		<li className={styles.player} key={uid}>
-			<Link href={`/players/${index}`}>{name}</Link>
+			<Link href={`/player/${index}`}>{name}</Link>
 		</li>
 	)
 }

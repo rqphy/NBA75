@@ -1,4 +1,4 @@
-import Player from "../../_components/player/player"
+import Player from "../../_components/PlayerCard/PlayerCard"
 import playerList from "../../data/players.json"
 import { useMemo, useState } from "react"
 

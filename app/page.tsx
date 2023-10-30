@@ -1,6 +1,6 @@
 import styles from "./css/page.module.css"
 import playersList from "./data/players.json"
-import Player from "./_components/player/player"
+import Player from "./_components/PlayerCard/PlayerCard"
 
 export default function Home() {
 	return (

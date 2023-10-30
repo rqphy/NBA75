@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "./player.module.css"
+import styles from "./PlayerCard.module.css"
 
 interface playerProps {
 	name: string

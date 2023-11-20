@@ -7,4 +7,14 @@
 	height: 100%;
 	width: 100%;
 	background-color: var(--color-background);
+
+	cursor: grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+}
+
+.map:active {
+	cursor: grabbing;
+	cursor: -moz-grabbing;
+	cursor: -webkit-grabbing;
 }

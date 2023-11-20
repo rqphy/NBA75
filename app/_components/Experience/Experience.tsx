@@ -5,7 +5,12 @@ import { OrbitControls } from "@react-three/drei"
 
 const Experience = () => {
 	return (
-		<Canvas>
+		<Canvas
+			camera={{
+				fov: 45,
+				position: [0, 0, 7.5],
+			}}
+		>
 			<OrbitControls />
 			<mesh>
 				<sphereGeometry args={[4, 32, 16]} />

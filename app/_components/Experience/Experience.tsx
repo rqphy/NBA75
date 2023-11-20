@@ -8,8 +8,8 @@ const Experience = () => {
 		<Canvas>
 			<OrbitControls />
 			<mesh>
-				<torusKnotGeometry />
-				<meshNormalMaterial />
+				<sphereGeometry args={[4, 32, 16]} />
+				<meshNormalMaterial wireframe />
 			</mesh>
 		</Canvas>
 	)

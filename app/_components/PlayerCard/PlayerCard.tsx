@@ -9,8 +9,14 @@ interface playerProps {
 
 export default function Player({ name, uid, index }: playerProps) {
 	return (
-		<li className={styles.player} key={uid}>
+		<group>
+			{/* <li className={styles.player} key={uid}>
 			<Link href={`/player/${index}`}>{name}</Link>
-		</li>
+		</li> */}
+			<mesh position={[0, 0, 4]}>
+				<planeGeometry args={[0.8, 1]} />
+				<meshNormalMaterial />
+			</mesh>
+		</group>
 	)
 }

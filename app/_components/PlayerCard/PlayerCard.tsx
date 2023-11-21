@@ -15,7 +15,7 @@ export default function Player({ name, uid, index }: playerProps) {
 			{/* <Link href={`/player/${index}`}> */}
 			<mesh>
 				<planeGeometry args={[0.8, 1]} />
-				<meshNormalMaterial />
+				<meshNormalMaterial side={DoubleSide} />
 			</mesh>
 			<Text
 				position={[0, 0.4, 0.001]}

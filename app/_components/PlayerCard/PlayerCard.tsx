@@ -1,7 +1,10 @@
+"use client"
 import Link from "next/link"
 import styles from "./PlayerCard.module.css"
 import { Text } from "@react-three/drei"
-import { DoubleSide } from "three"
+import { DoubleSide, Group } from "three"
+import { useRef } from "react"
+import { useFrame } from "@react-three/fiber"
 
 interface playerProps {
 	name: string
@@ -10,8 +13,13 @@ interface playerProps {
 }
 
 export default function Player({ name, uid, index }: playerProps) {
+	const groupRef = useRef<Group>(null)
+	useFrame(() => {
+		groupRef.current?.lookAt(0, 0, 0)
+	})
+
 	return (
-		<group key={index} position={[0 + index, 0, 4]}>
+		<group ref={groupRef} key={uid} position={[0 + index, 0, 4]}>
 			{/* <Link href={`/player/${index}`}> */}
 			<mesh>
 				<planeGeometry args={[0.8, 1]} />

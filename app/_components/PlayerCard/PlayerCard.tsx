@@ -18,11 +18,11 @@ export default function Player({ name, uid, index }: playerProps) {
 				<meshNormalMaterial side={DoubleSide} />
 			</mesh>
 			<Text
-				position={[-0.34, 0.4, 0.001]}
+				position={[-0.32, 0.48, 0.001]}
 				rotation={[0, 0, Math.PI * 1.5]}
 				color="white"
-				anchorX="center"
-				anchorY="middle"
+				anchorX="left"
+				anchorY="top"
 				scale={0.08}
 			>
 				{name}

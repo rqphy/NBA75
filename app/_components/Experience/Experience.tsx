@@ -3,6 +3,7 @@ import React from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from "@react-three/drei"
 import Player from "../PlayerCard/PlayerCard"
+import playersList from "../../data/players.json"
 
 const Experience = () => {
 	return (
@@ -17,7 +18,9 @@ const Experience = () => {
 				<sphereGeometry args={[4, 32, 16]} />
 				<meshNormalMaterial wireframe />
 			</mesh>
-			<Player name="hello" uid={12} index={3} />
+			{playersList.map((player, index) => (
+				<Player name={player.name} uid={player.uid} index={index} />
+			))}
 		</Canvas>
 	)
 }

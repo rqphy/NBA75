@@ -11,7 +11,7 @@ interface playerProps {
 
 export default function Player({ name, uid, index }: playerProps) {
 	return (
-		<group key={index} position={[0, 0, 4]}>
+		<group key={index} position={[0 + index, 0, 4]}>
 			{/* <Link href={`/player/${index}`}> */}
 			<mesh>
 				<planeGeometry args={[0.8, 1]} />

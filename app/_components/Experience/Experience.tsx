@@ -19,7 +19,12 @@ const Experience = () => {
 				<meshNormalMaterial wireframe />
 			</mesh>
 			{playersList.map((player, index) => (
-				<Player name={player.name} uid={player.uid} index={index} />
+				<Player
+					key={player.uid}
+					name={player.name}
+					uid={player.uid}
+					index={index}
+				/>
 			))}
 		</Canvas>
 	)

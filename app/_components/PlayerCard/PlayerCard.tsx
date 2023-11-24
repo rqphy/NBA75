@@ -1,5 +1,5 @@
 "use client"
-import Link from "next/link"
+import { useRouter } from "next/navigation"
 import styles from "./PlayerCard.module.css"
 import { Text } from "@react-three/drei"
 import { DoubleSide, Group, Vector3 } from "three"
@@ -19,6 +19,12 @@ let y = 0
 let z = 0
 
 export default function Player({ name, uid, index }: playerProps) {
+	const router = useRouter()
+
+	const handleGroupClick = () => {
+		router.push(`/player/${index}`)
+	}
+
 	const groupRef = useRef<Group>(null)
 	useFrame(() => {
 		groupRef.current?.lookAt(0, 0, 0)
@@ -41,8 +47,7 @@ export default function Player({ name, uid, index }: playerProps) {
 	}, [])
 
 	return (
-		<group ref={groupRef} position={cardPos}>
-			{/* <Link href={`/player/${index}`}> */}
+		<group ref={groupRef} position={cardPos} onClick={handleGroupClick}>
 			<mesh>
 				<planeGeometry args={[0.8, 1]} />
 				<meshNormalMaterial side={DoubleSide} />
@@ -57,7 +62,6 @@ export default function Player({ name, uid, index }: playerProps) {
 			>
 				{name}
 			</Text>
-			{/* </Link> */}
 		</group>
 	)
 }

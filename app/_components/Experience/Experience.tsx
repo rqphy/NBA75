@@ -5,15 +5,20 @@ import { OrbitControls } from "@react-three/drei"
 import Player from "../PlayerCard/PlayerCard"
 import playersList from "../../data/players.json"
 
+const cameraDistance = 7.5
+
 const Experience = () => {
 	return (
 		<Canvas
 			camera={{
 				fov: 45,
-				position: [0, 0, 7.5],
+				position: [0, 0, cameraDistance],
 			}}
 		>
-			<OrbitControls />
+			<OrbitControls
+				minDistance={cameraDistance}
+				maxDistance={cameraDistance}
+			/>
 			<mesh>
 				<sphereGeometry args={[4, 32, 16]} />
 				<meshNormalMaterial wireframe />

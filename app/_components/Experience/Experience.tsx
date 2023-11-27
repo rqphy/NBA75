@@ -8,31 +8,31 @@ import playersList from "../../data/players.json"
 const cameraDistance = 7.5
 
 const Experience = () => {
-	return (
-		<Canvas
-			camera={{
-				fov: 45,
-				position: [0, 0, cameraDistance],
-			}}
-		>
-			<OrbitControls
-				minDistance={cameraDistance}
-				maxDistance={cameraDistance}
-			/>
-			<mesh>
-				<sphereGeometry args={[4, 32, 16]} />
-				<meshNormalMaterial wireframe />
-			</mesh>
-			{playersList.map((player, index) => (
-				<Player
-					key={player.uid}
-					name={player.name}
-					uid={player.uid}
-					index={index}
-				/>
-			))}
-		</Canvas>
-	)
+    return (
+        <Canvas
+            camera={{
+                fov: 45,
+                position: [0, 0, cameraDistance],
+            }}
+        >
+            <OrbitControls
+                minDistance={cameraDistance}
+                maxDistance={cameraDistance}
+            />
+            <mesh>
+                <sphereGeometry args={[4, 32, 16]} />
+                <meshBasicMaterial color={"white"} wireframe />
+            </mesh>
+            {playersList.map((player, index) => (
+                <Player
+                    key={player.uid}
+                    name={player.name}
+                    uid={player.uid}
+                    index={index}
+                />
+            ))}
+        </Canvas>
+    )
 }
 
 export default Experience

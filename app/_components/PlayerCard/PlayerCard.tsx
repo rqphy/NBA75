@@ -50,7 +50,7 @@ export default function Player({ name, uid, index }: playerProps) {
         <group ref={groupRef} position={cardPos} onClick={handleGroupClick}>
             <Poster index={index} />
             <Text
-                position={[-0.28, 0.48, 0.05]}
+                position={[-0.28, 0.45, 0.05]}
                 rotation={[0, 0, Math.PI * 1.5]}
                 color="white"
                 anchorX="left"

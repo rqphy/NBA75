@@ -8,12 +8,24 @@
 .container {
     max-width: 980px;
     width: 100%;
+    padding: 1rem;
 }
 
 .title {
-    font-size: calc((68vw - 4.5rem) / 7);
+    font-size: calc((65vw - 4.5rem) / 7);
     text-align: center;
     margin: 1rem 0;
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+}
+
+.story {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @media (min-width: 979px) {

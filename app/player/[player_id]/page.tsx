@@ -20,7 +20,7 @@ export default async function page({ params }: pageProps) {
                 <figure className={styles.banner}>
                     <img src="/banners/stephen_curry.jpg" alt={player.name} />
                 </figure>
-                <p>{player.story}</p>
+                <p className={styles.story}>{player.story}</p>
             </div>
         </section>
     )

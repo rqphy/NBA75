@@ -1,0 +1,23 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+}
+
+.title {
+    font-size: calc((68vw - 4.5rem) / 7);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+@media (min-width: 979px) {
+    .title {
+        font-size: 5rem;
+    }
+}

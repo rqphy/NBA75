@@ -1,0 +1,14 @@
+.switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bball {
+    --bball_size: 6rem;
+    height: var(--bball_size);
+    width: var(--bball_size);
+    border-radius: 50%;
+    background-color: tomato;
+}

@@ -1,382 +1,382 @@
 [
-	{
-		"name": "Kareem Abdul-Jabbar",
-		"uid": 1234,
-		"story": "Kareem was a dominant force in the post with his iconic skyhook shot. He's the all-time leading scorer in the NBA."
-	},
-	{
-		"name": "Ray Allen",
-		"uid": 5678,
-		"story": "Ray Allen was a sharpshooter known for clutch three-pointers. He's a two-time NBA champion and one of the best shooters in history."
-	},
-	{
-		"name": "Giannis Antetokounmpo",
-		"uid": 2109,
-		"story": "Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion."
-	},
-	{
-		"name": "Carmelo Anthony",
-		"uid": 8765,
-		"story": "Carmelo is a prolific scorer and an 11-time NBA All-Star. He's known for his scoring ability and mid-range game."
-	},
-	{
-		"name": "Nate Archibald",
-		"uid": 4567,
-		"story": "Nate Archibald was a dynamic point guard with exceptional speed and scoring ability. He led the league in scoring and assists in a single season."
-	},
-	{
-		"name": "Paul Arizin",
-		"uid": 7890,
-		"story": "Paul Arizin was a scoring machine and one of the first players to utilize the jump shot effectively in the NBA."
-	},
-	{
-		"name": "Charles Barkley",
-		"uid": 3456,
-		"story": "Charles Barkley was a dominant rebounder and scorer, known for his aggressive style of play. He's an 11-time All-Star."
-	},
-	{
-		"name": "Rick Barry",
-		"uid": 9012,
-		"story": "Rick Barry was a versatile forward and a prolific scorer. He's known for his underhanded free throw shooting and an NBA champion."
-	},
-	{
-		"name": "Elgin Baylor",
-		"uid": 6543,
-		"story": "Elgin Baylor was a high-flying forward with a silky smooth scoring touch. He's a Hall of Famer and 11-time All-Star."
-	},
-	{
-		"name": "Dave Bing",
-		"uid": 8901,
-		"story": "Dave Bing was an excellent guard known for his scoring and playmaking. He was an NBA scoring champion."
-	},
-	{
-		"name": "Larry Bird",
-		"uid": 4321,
-		"story": "Larry Bird was a basketball genius, known for his scoring, passing, and leadership. He's a three-time NBA champion and an iconic Celtic."
-	},
-	{
-		"name": "Kobe Bryant",
-		"uid": 7895,
-		"story": "Kobe Bryant was a scoring machine and one of the greatest players in NBA history. He's a five-time NBA champion and a true Lakers legend."
-	},
-	{
-		"name": "Wilt Chamberlain",
-		"uid": 7654,
-		"story": "Wilt Chamberlain was a dominant force in the paint, known for his incredible scoring and rebounding. He's a seven-time scoring champion."
-	},
-	{
-		"name": "Bob Cousy",
-		"uid": 1230,
-		"story": "Bob Cousy was a pioneer of modern point guard play. He was known for his ball-handling and passing skills."
-	},
-	{
-		"name": "Dave Cowens",
-		"uid": 9870,
-		"story": "Dave Cowens was a tenacious center known for his hustle and relentless play. He's an NBA champion and two-time MVP."
-	},
-	{
-		"name": "Billy Cunningham",
-		"uid": 2345,
-		"story": "Billy Cunningham was a versatile forward who could score and rebound effectively. He's an NBA champion and Hall of Famer."
-	},
-	{
-		"name": "Stephen Curry",
-		"uid": 6781,
-		"story": "Stephen Curry revolutionized the game with his three-point shooting. He's a two-time MVP and leader of the Golden State Warriors."
-	},
-	{
-		"name": "Anthony Davis",
-		"uid": 5432,
-		"story": "Anthony Davis is a dominant big man with exceptional shot-blocking and scoring abilities. He's an NBA champion and eight-time All-Star."
-	},
-	{
-		"name": "Dave DeBusschere",
-		"uid": 3452,
-		"story": "Dave DeBusschere was a tough defender and a key player on championship teams. He was known for his tenacity and leadership."
-	},
-	{
-		"name": "Clyde Drexler",
-		"uid": 5671,
-		"story": "Clyde Drexler was a versatile guard and an exceptional athlete. He's an NBA champion and a member of the Hall of Fame."
-	},
-	{
-		"name": "Tim Duncan",
-		"uid": 1098,
-		"story": "Tim Duncan was a fundamental big man and the cornerstone of the San Antonio Spurs' success. He's a five-time NBA champion and MVP."
-	},
-	{
-		"name": "Kevin Durant",
-		"uid": 8760,
-		"story": "Kevin Durant is a scoring machine with incredible versatility. He's an NBA champion and one of the most dynamic players in the league."
-	},
-	{
-		"name": "Julius Erving",
-		"uid": 2103,
-		"story": "Julius Erving, known as 'Dr. J,' was a high-flying forward and a pioneer of modern basketball. He's an NBA champion and an iconic player."
-	},
-	{
-		"name": "Patrick Ewing",
-		"uid": 4327,
-		"story": "Patrick Ewing was a dominant center known for his shot-blocking and scoring in the paint. He's a Knicks legend and an 11-time All-Star."
-	},
-	{
-		"name": "Walt Frazier",
-		"uid": 6549,
-		"story": "Walt Frazier was a legendary point guard known for his defensive prowess and clutch performances. He's a two-time NBA champion."
-	},
-	{
-		"name": "Kevin Garnett",
-		"uid": 8768,
-		"story": "Kevin Garnett, known as 'The Big Ticket,' was a versatile forward and a defensive force. He's an NBA champion and MVP."
-	},
-	{
-		"name": "George Gervin",
-		"uid": 2346,
-		"story": "George Gervin, 'The Iceman,' was a prolific scorer known for his smooth finger rolls. He's an NBA scoring champion."
-	},
-	{
-		"name": "Hal Greer",
-		"uid": 8902,
-		"story": "Hal Greer was a dynamic guard and a key player for the Philadelphia 76ers. He's an NBA champion and a 10-time All-Star."
-	},
-	{
-		"name": "James Harden",
-		"uid": 4328,
-		"story": "James Harden is a scoring machine with exceptional ball-handling skills. He's an MVP and a Houston Rockets legend."
-	},
-	{
-		"name": "John Havlicek",
-		"uid": 1093,
-		"story": "John Havlicek was a versatile forward known for his hustle and clutch play. He's an eight-time NBA champion with the Boston Celtics."
-	},
-	{
-		"name": "Elvin Hayes",
-		"uid": 5673,
-		"story": "Elvin Hayes was a dominant power forward with a great scoring touch. He's an NBA champion and a Hall of Famer."
-	},
-	{
-		"name": "LeBron James",
-		"uid": 7652,
-		"story": "LeBron James is one of the greatest players in NBA history, known for his versatility and leadership. He's a four-time NBA champion and four-time MVP."
-	},
-	{
-		"name": "Magic Johnson",
-		"uid": 1236,
-		"story": "Magic Johnson was a legendary point guard and an incredible passer. He's a five-time NBA champion and a Showtime Lakers icon."
-	},
-	{
-		"name": "Sam Jones",
-		"uid": 7896,
-		"story": "Sam Jones was a clutch shooting guard and a key part of the Celtics' dynasty. He's an 10-time NBA champion."
-	},
-	{
-		"name": "Michael Jordan",
-		"uid": 3454,
-		"story": "Michael Jordan, 'His Airness,' is widely regarded as the greatest player of all time. He's a six-time NBA champion and a 10-time scoring champion."
-	},
-	{
-		"name": "Jason Kidd",
-		"uid": 5674,
-		"story": "Jason Kidd was a floor general known for his passing and basketball IQ. He's an NBA champion and one of the greatest point guards."
-	},
-	{
-		"name": "Allen Iverson",
-		"uid": 2104,
-		"story": "Allen Iverson, 'The Answer,' was a fearless scorer and a cultural icon. He's an 11-time All-Star and a league MVP."
-	},
-	{
-		"name": "Kawhi Leonard",
-		"uid": 4323,
-		"story": "Kawhi Leonard is a two-way superstar, known for his lockdown defense and clutch shot-making. He's a multi-time NBA champion and Finals MVP."
-	},
-	{
-		"name": "Damian Lillard",
-		"uid": 6547,
-		"story": "Damian Lillard, 'Dame Time,' is a scoring point guard famous for his deep three-pointers and clutch performances."
-	},
-	{
-		"name": "Jerry Lucas",
-		"uid": 9872,
-		"story": "Jerry Lucas was a dominant forward and a rebounding machine. He's an NBA champion and an NBA Hall of Famer."
-	},
-	{
-		"name": "Karl Malone",
-		"uid": 1094,
-		"story": "Karl Malone, 'The Mailman,' was a scoring machine and one of the greatest power forwards in NBA history."
-	},
-	{
-		"name": "Moses Malone",
-		"uid": 2348,
-		"story": "Moses Malone was a relentless rebounder and an incredible scorer. He's a three-time NBA MVP and an NBA champion."
-	},
-	{
-		"name": "Pete Maravich",
-		"uid": 8767,
-		"story": "Pete Maravich, 'Pistol Pete,' was a dazzling ball-handler and a prolific scorer. He's an iconic figure in basketball history."
-	},
-	{
-		"name": "Bob McAdoo",
-		"uid": 5679,
-		"story": "Bob McAdoo was a versatile big man known for his scoring and shot-blocking. He's an MVP and two-time NBA champion."
-	},
-	{
-		"name": "Kevin McHale",
-		"uid": 4325,
-		"story": "Kevin McHale was a post-up master and a key part of the Boston Celtics' success. He's a three-time NBA champion."
-	},
-	{
-		"name": "George Mikan",
-		"uid": 7650,
-		"story": "George Mikan was a dominant center in the early days of the NBA, known for his scoring and shot-blocking."
-	},
-	{
-		"name": "Reggie Miller",
-		"uid": 7897,
-		"story": "Reggie Miller was a clutch three-point shooter and a key player for the Indiana Pacers. He's an NBA legend."
-	},
-	{
-		"name": "Earl Monroe",
-		"uid": 3459,
-		"story": "Earl Monroe, 'The Pearl,' was a flashy guard with a unique style of play. He's an NBA champion and Hall of Famer."
-	},
-	{
-		"name": "Steve Nash",
-		"uid": 9874,
-		"story": "Steve Nash was a two-time MVP known for his incredible passing and leadership. He's one of the greatest point guards in NBA history."
-	},
-	{
-		"name": "Dirk Nowitzki",
-		"uid": 2105,
-		"story": "Dirk Nowitzki was a legendary forward and one of the greatest shooters for his size. He's an NBA champion and an iconic Maverick."
-	},
-	{
-		"name": "Shaquille O’Neal",
-		"uid": 6548,
-		"story": "Shaquille O’Neal, 'Shaq,' was a dominant force in the post and a charismatic figure in the NBA. He's a four-time NBA champion."
-	},
-	{
-		"name": "Hakeem Olajuwon",
-		"uid": 5675,
-		"story": "Hakeem Olajuwon, 'The Dream,' was a skilled center known for his footwork and shot-blocking. He's a two-time NBA champion."
-	},
-	{
-		"name": "Robert Parish",
-		"uid": 1237,
-		"story": "Robert Parish was a key player on championship teams with the Boston Celtics. He's one of the most durable players in NBA history."
-	},
-	{
-		"name": "Chris Paul",
-		"uid": 8763,
-		"story": "Chris Paul is a floor general known for his exceptional playmaking and leadership. He's a future Hall of Famer."
-	},
-	{
-		"name": "Gary Payton",
-		"uid": 4324,
-		"story": "Gary Payton, 'The Glove,' was a tenacious defender and an iconic point guard. He's an NBA champion and Hall of Famer."
-	},
-	{
-		"name": "Bob Pettit",
-		"uid": 7898,
-		"story": "Bob Pettit was a versatile forward and one of the early stars of the NBA. He's an NBA champion and two-time MVP."
-	},
-	{
-		"name": "Paul Pierce",
-		"uid": 3457,
-		"story": "Paul Pierce, 'The Truth,' was a scoring machine and a key player for the Boston Celtics. He's an NBA champion and Finals MVP."
-	},
-	{
-		"name": "Scottie Pippen",
-		"uid": 5672,
-		"story": "Scottie Pippen was a versatile forward and a key part of the Chicago Bulls' dynasty. He's a six-time NBA champion."
-	},
-	{
-		"name": "Willis Reed",
-		"uid": 9875,
-		"story": "Willis Reed was a legendary center known for his leadership and tenacity. He's a two-time NBA champion and MVP."
-	},
-	{
-		"name": "Oscar Robertson",
-		"uid": 2106,
-		"story": "Oscar Robertson, 'The Big O,' was a triple-double machine and one of the greatest guards in NBA history."
-	},
-	{
-		"name": "David Robinson",
-		"uid": 6546,
-		"story": "David Robinson was a dominant center known for his shot-blocking and scoring. He's an NBA champion and MVP."
-	},
-	{
-		"name": "Dennis Rodman",
-		"uid": 2349,
-		"story": "Dennis Rodman was a legendary rebounder and defender, known for his colorful personality. He's an NBA champion."
-	},
-	{
-		"name": "Bill Russell",
-		"uid": 7651,
-		"story": "Bill Russell is a Celtics legend and one of the greatest shot-blockers and defenders in NBA history. He's an 11-time NBA champion."
-	},
-	{
-		"name": "Dolph Schayes",
-		"uid": 1235,
-		"story": "Dolph Schayes was a versatile forward and a pioneer of modern basketball. He's an NBA champion and Hall of Famer."
-	},
-	{
-		"name": "Bill Sharman",
-		"uid": 7899,
-		"story": "Bill Sharman was a sharpshooter and a key player on the Boston Celtics' championship teams. He's a Hall of Famer."
-	},
-	{
-		"name": "John Stockton",
-		"uid": 8762,
-		"story": "John Stockton is the NBA's all-time assists leader and a legendary point guard known for his consistency."
-	},
-	{
-		"name": "Isiah Thomas",
-		"uid": 4320,
-		"story": "Isiah Thomas was a fearless point guard and a key figure for the Detroit Pistons' 'Bad Boys' era. He's a two-time NBA champion."
-	},
-	{
-		"name": "Nate Thurmond",
-		"uid": 2108,
-		"story": "Nate Thurmond was a dominant defender and one of the best shot-blockers in NBA history. He's an NBA legend."
-	},
-	{
-		"name": "Wes Unseld",
-		"uid": 5677,
-		"story": "Wes Unseld was a tenacious rebounder and an NBA champion. He was known for his physical style of play."
-	},
-	{
-		"name": "Dwyane Wade",
-		"uid": 9879,
-		"story": "Dwyane Wade was a dynamic shooting guard and a three-time NBA champion. He's known for his scoring and clutch performances."
-	},
-	{
-		"name": "Bill Walton",
-		"uid": 3451,
-		"story": "Bill Walton was a skilled center and a key player on championship teams. He's known for his basketball IQ and passing."
-	},
-	{
-		"name": "Jerry West",
-		"uid": 6541,
-		"story": "Jerry West, 'The Logo,' was a versatile guard and a legendary Lakers figure. He's an NBA champion and one of the greatest guards."
-	},
-	{
-		"name": "Russell Westbrook",
-		"uid": 1239,
-		"story": "Russell Westbrook is a triple-double machine known for his intensity and athleticism. He's a former MVP."
-	},
-	{
-		"name": "Lenny Wilkens",
-		"uid": 7893,
-		"story": "Lenny Wilkens was a legendary point guard and a successful coach. He's a Hall of Famer and one of the game's great ambassadors."
-	},
-	{
-		"name": "Dominique Wilkins",
-		"uid": 5670,
-		"story": "Dominique Wilkins, 'The Human Highlight Film,' was a high-flying forward known for his incredible dunks. He's an NBA scoring champion."
-	},
-	{
-		"name": "James Worthy",
-		"uid": 2107,
-		"story": "James Worthy, 'Big Game James,' was a clutch forward and a key part of the 'Showtime' Lakers. He's a three-time NBA champion and Finals MVP."
-	}
+    {
+        "name": "Kareem Abdul-Jabbar",
+        "uid": 1234,
+        "story": "Kareem was a dominant force in the post with his iconic skyhook shot. He's the all-time leading scorer in the NBA."
+    },
+    {
+        "name": "Ray Allen",
+        "uid": 5678,
+        "story": "Ray Allen was a sharpshooter known for clutch three-pointers. He's a two-time NBA champion and one of the best shooters in history."
+    },
+    {
+        "name": "Giannis Antetokounmpo",
+        "uid": 2109,
+        "story": "Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion.Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion.Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion.Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion.Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion.Giannis is a versatile forward who can score, defend, and handle the ball. He's a multi-time MVP and NBA champion."
+    },
+    {
+        "name": "Carmelo Anthony",
+        "uid": 8765,
+        "story": "Carmelo is a prolific scorer and an 11-time NBA All-Star. He's known for his scoring ability and mid-range game."
+    },
+    {
+        "name": "Nate Archibald",
+        "uid": 4567,
+        "story": "Nate Archibald was a dynamic point guard with exceptional speed and scoring ability. He led the league in scoring and assists in a single season."
+    },
+    {
+        "name": "Paul Arizin",
+        "uid": 7890,
+        "story": "Paul Arizin was a scoring machine and one of the first players to utilize the jump shot effectively in the NBA."
+    },
+    {
+        "name": "Charles Barkley",
+        "uid": 3456,
+        "story": "Charles Barkley was a dominant rebounder and scorer, known for his aggressive style of play. He's an 11-time All-Star."
+    },
+    {
+        "name": "Rick Barry",
+        "uid": 9012,
+        "story": "Rick Barry was a versatile forward and a prolific scorer. He's known for his underhanded free throw shooting and an NBA champion."
+    },
+    {
+        "name": "Elgin Baylor",
+        "uid": 6543,
+        "story": "Elgin Baylor was a high-flying forward with a silky smooth scoring touch. He's a Hall of Famer and 11-time All-Star."
+    },
+    {
+        "name": "Dave Bing",
+        "uid": 8901,
+        "story": "Dave Bing was an excellent guard known for his scoring and playmaking. He was an NBA scoring champion."
+    },
+    {
+        "name": "Larry Bird",
+        "uid": 4321,
+        "story": "Larry Bird was a basketball genius, known for his scoring, passing, and leadership. He's a three-time NBA champion and an iconic Celtic."
+    },
+    {
+        "name": "Kobe Bryant",
+        "uid": 7895,
+        "story": "Kobe Bryant was a scoring machine and one of the greatest players in NBA history. He's a five-time NBA champion and a true Lakers legend."
+    },
+    {
+        "name": "Wilt Chamberlain",
+        "uid": 7654,
+        "story": "Wilt Chamberlain was a dominant force in the paint, known for his incredible scoring and rebounding. He's a seven-time scoring champion."
+    },
+    {
+        "name": "Bob Cousy",
+        "uid": 1230,
+        "story": "Bob Cousy was a pioneer of modern point guard play. He was known for his ball-handling and passing skills."
+    },
+    {
+        "name": "Dave Cowens",
+        "uid": 9870,
+        "story": "Dave Cowens was a tenacious center known for his hustle and relentless play. He's an NBA champion and two-time MVP."
+    },
+    {
+        "name": "Billy Cunningham",
+        "uid": 2345,
+        "story": "Billy Cunningham was a versatile forward who could score and rebound effectively. He's an NBA champion and Hall of Famer."
+    },
+    {
+        "name": "Stephen Curry",
+        "uid": 6781,
+        "story": "Stephen Curry revolutionized the game with his three-point shooting. He's a two-time MVP and leader of the Golden State Warriors."
+    },
+    {
+        "name": "Anthony Davis",
+        "uid": 5432,
+        "story": "Anthony Davis is a dominant big man with exceptional shot-blocking and scoring abilities. He's an NBA champion and eight-time All-Star."
+    },
+    {
+        "name": "Dave DeBusschere",
+        "uid": 3452,
+        "story": "Dave DeBusschere was a tough defender and a key player on championship teams. He was known for his tenacity and leadership."
+    },
+    {
+        "name": "Clyde Drexler",
+        "uid": 5671,
+        "story": "Clyde Drexler was a versatile guard and an exceptional athlete. He's an NBA champion and a member of the Hall of Fame."
+    },
+    {
+        "name": "Tim Duncan",
+        "uid": 1098,
+        "story": "Tim Duncan was a fundamental big man and the cornerstone of the San Antonio Spurs' success. He's a five-time NBA champion and MVP."
+    },
+    {
+        "name": "Kevin Durant",
+        "uid": 8760,
+        "story": "Kevin Durant is a scoring machine with incredible versatility. He's an NBA champion and one of the most dynamic players in the league."
+    },
+    {
+        "name": "Julius Erving",
+        "uid": 2103,
+        "story": "Julius Erving, known as 'Dr. J,' was a high-flying forward and a pioneer of modern basketball. He's an NBA champion and an iconic player."
+    },
+    {
+        "name": "Patrick Ewing",
+        "uid": 4327,
+        "story": "Patrick Ewing was a dominant center known for his shot-blocking and scoring in the paint. He's a Knicks legend and an 11-time All-Star."
+    },
+    {
+        "name": "Walt Frazier",
+        "uid": 6549,
+        "story": "Walt Frazier was a legendary point guard known for his defensive prowess and clutch performances. He's a two-time NBA champion."
+    },
+    {
+        "name": "Kevin Garnett",
+        "uid": 8768,
+        "story": "Kevin Garnett, known as 'The Big Ticket,' was a versatile forward and a defensive force. He's an NBA champion and MVP."
+    },
+    {
+        "name": "George Gervin",
+        "uid": 2346,
+        "story": "George Gervin, 'The Iceman,' was a prolific scorer known for his smooth finger rolls. He's an NBA scoring champion."
+    },
+    {
+        "name": "Hal Greer",
+        "uid": 8902,
+        "story": "Hal Greer was a dynamic guard and a key player for the Philadelphia 76ers. He's an NBA champion and a 10-time All-Star."
+    },
+    {
+        "name": "James Harden",
+        "uid": 4328,
+        "story": "James Harden is a scoring machine with exceptional ball-handling skills. He's an MVP and a Houston Rockets legend."
+    },
+    {
+        "name": "John Havlicek",
+        "uid": 1093,
+        "story": "John Havlicek was a versatile forward known for his hustle and clutch play. He's an eight-time NBA champion with the Boston Celtics."
+    },
+    {
+        "name": "Elvin Hayes",
+        "uid": 5673,
+        "story": "Elvin Hayes was a dominant power forward with a great scoring touch. He's an NBA champion and a Hall of Famer."
+    },
+    {
+        "name": "LeBron James",
+        "uid": 7652,
+        "story": "LeBron James is one of the greatest players in NBA history, known for his versatility and leadership. He's a four-time NBA champion and four-time MVP."
+    },
+    {
+        "name": "Magic Johnson",
+        "uid": 1236,
+        "story": "Magic Johnson was a legendary point guard and an incredible passer. He's a five-time NBA champion and a Showtime Lakers icon."
+    },
+    {
+        "name": "Sam Jones",
+        "uid": 7896,
+        "story": "Sam Jones was a clutch shooting guard and a key part of the Celtics' dynasty. He's an 10-time NBA champion."
+    },
+    {
+        "name": "Michael Jordan",
+        "uid": 3454,
+        "story": "Michael Jordan, 'His Airness,' is widely regarded as the greatest player of all time. He's a six-time NBA champion and a 10-time scoring champion."
+    },
+    {
+        "name": "Jason Kidd",
+        "uid": 5674,
+        "story": "Jason Kidd was a floor general known for his passing and basketball IQ. He's an NBA champion and one of the greatest point guards."
+    },
+    {
+        "name": "Allen Iverson",
+        "uid": 2104,
+        "story": "Allen Iverson, 'The Answer,' was a fearless scorer and a cultural icon. He's an 11-time All-Star and a league MVP."
+    },
+    {
+        "name": "Kawhi Leonard",
+        "uid": 4323,
+        "story": "Kawhi Leonard is a two-way superstar, known for his lockdown defense and clutch shot-making. He's a multi-time NBA champion and Finals MVP."
+    },
+    {
+        "name": "Damian Lillard",
+        "uid": 6547,
+        "story": "Damian Lillard, 'Dame Time,' is a scoring point guard famous for his deep three-pointers and clutch performances."
+    },
+    {
+        "name": "Jerry Lucas",
+        "uid": 9872,
+        "story": "Jerry Lucas was a dominant forward and a rebounding machine. He's an NBA champion and an NBA Hall of Famer."
+    },
+    {
+        "name": "Karl Malone",
+        "uid": 1094,
+        "story": "Karl Malone, 'The Mailman,' was a scoring machine and one of the greatest power forwards in NBA history."
+    },
+    {
+        "name": "Moses Malone",
+        "uid": 2348,
+        "story": "Moses Malone was a relentless rebounder and an incredible scorer. He's a three-time NBA MVP and an NBA champion."
+    },
+    {
+        "name": "Pete Maravich",
+        "uid": 8767,
+        "story": "Pete Maravich, 'Pistol Pete,' was a dazzling ball-handler and a prolific scorer. He's an iconic figure in basketball history."
+    },
+    {
+        "name": "Bob McAdoo",
+        "uid": 5679,
+        "story": "Bob McAdoo was a versatile big man known for his scoring and shot-blocking. He's an MVP and two-time NBA champion."
+    },
+    {
+        "name": "Kevin McHale",
+        "uid": 4325,
+        "story": "Kevin McHale was a post-up master and a key part of the Boston Celtics' success. He's a three-time NBA champion."
+    },
+    {
+        "name": "George Mikan",
+        "uid": 7650,
+        "story": "George Mikan was a dominant center in the early days of the NBA, known for his scoring and shot-blocking."
+    },
+    {
+        "name": "Reggie Miller",
+        "uid": 7897,
+        "story": "Reggie Miller was a clutch three-point shooter and a key player for the Indiana Pacers. He's an NBA legend."
+    },
+    {
+        "name": "Earl Monroe",
+        "uid": 3459,
+        "story": "Earl Monroe, 'The Pearl,' was a flashy guard with a unique style of play. He's an NBA champion and Hall of Famer."
+    },
+    {
+        "name": "Steve Nash",
+        "uid": 9874,
+        "story": "Steve Nash was a two-time MVP known for his incredible passing and leadership. He's one of the greatest point guards in NBA history."
+    },
+    {
+        "name": "Dirk Nowitzki",
+        "uid": 2105,
+        "story": "Dirk Nowitzki was a legendary forward and one of the greatest shooters for his size. He's an NBA champion and an iconic Maverick."
+    },
+    {
+        "name": "Shaquille O’Neal",
+        "uid": 6548,
+        "story": "Shaquille O’Neal, 'Shaq,' was a dominant force in the post and a charismatic figure in the NBA. He's a four-time NBA champion."
+    },
+    {
+        "name": "Hakeem Olajuwon",
+        "uid": 5675,
+        "story": "Hakeem Olajuwon, 'The Dream,' was a skilled center known for his footwork and shot-blocking. He's a two-time NBA champion."
+    },
+    {
+        "name": "Robert Parish",
+        "uid": 1237,
+        "story": "Robert Parish was a key player on championship teams with the Boston Celtics. He's one of the most durable players in NBA history."
+    },
+    {
+        "name": "Chris Paul",
+        "uid": 8763,
+        "story": "Chris Paul is a floor general known for his exceptional playmaking and leadership. He's a future Hall of Famer."
+    },
+    {
+        "name": "Gary Payton",
+        "uid": 4324,
+        "story": "Gary Payton, 'The Glove,' was a tenacious defender and an iconic point guard. He's an NBA champion and Hall of Famer."
+    },
+    {
+        "name": "Bob Pettit",
+        "uid": 7898,
+        "story": "Bob Pettit was a versatile forward and one of the early stars of the NBA. He's an NBA champion and two-time MVP."
+    },
+    {
+        "name": "Paul Pierce",
+        "uid": 3457,
+        "story": "Paul Pierce, 'The Truth,' was a scoring machine and a key player for the Boston Celtics. He's an NBA champion and Finals MVP."
+    },
+    {
+        "name": "Scottie Pippen",
+        "uid": 5672,
+        "story": "Scottie Pippen was a versatile forward and a key part of the Chicago Bulls' dynasty. He's a six-time NBA champion."
+    },
+    {
+        "name": "Willis Reed",
+        "uid": 9875,
+        "story": "Willis Reed was a legendary center known for his leadership and tenacity. He's a two-time NBA champion and MVP."
+    },
+    {
+        "name": "Oscar Robertson",
+        "uid": 2106,
+        "story": "Oscar Robertson, 'The Big O,' was a triple-double machine and one of the greatest guards in NBA history."
+    },
+    {
+        "name": "David Robinson",
+        "uid": 6546,
+        "story": "David Robinson was a dominant center known for his shot-blocking and scoring. He's an NBA champion and MVP."
+    },
+    {
+        "name": "Dennis Rodman",
+        "uid": 2349,
+        "story": "Dennis Rodman was a legendary rebounder and defender, known for his colorful personality. He's an NBA champion."
+    },
+    {
+        "name": "Bill Russell",
+        "uid": 7651,
+        "story": "Bill Russell is a Celtics legend and one of the greatest shot-blockers and defenders in NBA history. He's an 11-time NBA champion."
+    },
+    {
+        "name": "Dolph Schayes",
+        "uid": 1235,
+        "story": "Dolph Schayes was a versatile forward and a pioneer of modern basketball. He's an NBA champion and Hall of Famer."
+    },
+    {
+        "name": "Bill Sharman",
+        "uid": 7899,
+        "story": "Bill Sharman was a sharpshooter and a key player on the Boston Celtics' championship teams. He's a Hall of Famer."
+    },
+    {
+        "name": "John Stockton",
+        "uid": 8762,
+        "story": "John Stockton is the NBA's all-time assists leader and a legendary point guard known for his consistency."
+    },
+    {
+        "name": "Isiah Thomas",
+        "uid": 4320,
+        "story": "Isiah Thomas was a fearless point guard and a key figure for the Detroit Pistons' 'Bad Boys' era. He's a two-time NBA champion."
+    },
+    {
+        "name": "Nate Thurmond",
+        "uid": 2108,
+        "story": "Nate Thurmond was a dominant defender and one of the best shot-blockers in NBA history. He's an NBA legend."
+    },
+    {
+        "name": "Wes Unseld",
+        "uid": 5677,
+        "story": "Wes Unseld was a tenacious rebounder and an NBA champion. He was known for his physical style of play."
+    },
+    {
+        "name": "Dwyane Wade",
+        "uid": 9879,
+        "story": "Dwyane Wade was a dynamic shooting guard and a three-time NBA champion. He's known for his scoring and clutch performances."
+    },
+    {
+        "name": "Bill Walton",
+        "uid": 3451,
+        "story": "Bill Walton was a skilled center and a key player on championship teams. He's known for his basketball IQ and passing."
+    },
+    {
+        "name": "Jerry West",
+        "uid": 6541,
+        "story": "Jerry West, 'The Logo,' was a versatile guard and a legendary Lakers figure. He's an NBA champion and one of the greatest guards."
+    },
+    {
+        "name": "Russell Westbrook",
+        "uid": 1239,
+        "story": "Russell Westbrook is a triple-double machine known for his intensity and athleticism. He's a former MVP."
+    },
+    {
+        "name": "Lenny Wilkens",
+        "uid": 7893,
+        "story": "Lenny Wilkens was a legendary point guard and a successful coach. He's a Hall of Famer and one of the game's great ambassadors."
+    },
+    {
+        "name": "Dominique Wilkins",
+        "uid": 5670,
+        "story": "Dominique Wilkins, 'The Human Highlight Film,' was a high-flying forward known for his incredible dunks. He's an NBA scoring champion."
+    },
+    {
+        "name": "James Worthy",
+        "uid": 2107,
+        "story": "James Worthy, 'Big Game James,' was a clutch forward and a key part of the 'Showtime' Lakers. He's a three-time NBA champion and Finals MVP."
+    }
 ]

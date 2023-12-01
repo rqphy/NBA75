@@ -1,12 +1,21 @@
 .switch {
+    --bball_size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+    background-color: teal;
+    margin: 0 0 2rem;
+}
+
+.prev,
+.next {
+    height: 2rem;
+    width: 2rem;
+    background-color: aqua;
 }
 
 .bball {
-    --bball_size: 6rem;
     height: var(--bball_size);
     width: var(--bball_size);
     border-radius: 50%;

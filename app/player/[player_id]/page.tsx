@@ -28,7 +28,7 @@ export default async function page({ params }: pageProps) {
                     <p className={styles.story}>{player.story}</p>
                 </div>
             </section>
-            <Switch currentId={params.player_id} />
+            <Switch currentId={Number(params.player_id)} />
         </>
     )
 }

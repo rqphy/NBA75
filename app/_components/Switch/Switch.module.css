@@ -11,10 +11,10 @@
 .next {
     height: 2rem;
     width: 2rem;
-    transition: transform 0.3s ease-out;
-    pointer-events: all;
     padding: 1rem;
+    transition: transform 0.3s ease-out;
     box-sizing: content-box;
+    pointer-events: all;
 }
 
 .prev:hover,
@@ -32,6 +32,7 @@
     border-radius: 50%;
     transition: transform 0.3s ease-out;
     transform: rotate(0);
+    pointer-events: all;
 }
 
 .switch:hover .bball {

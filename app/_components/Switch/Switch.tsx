@@ -9,7 +9,9 @@ export default function Switch({ currentId }: switchProps) {
         <ul className={styles.switch}>
             {currentId > 0 && (
                 <Link href={`/player/${currentId - 1}`} className={styles.prev}>
-                    P
+                    <figure>
+                        <img src="/arrow_icon.png" alt="previous player" />
+                    </figure>
                 </Link>
             )}
             <figure className={styles.bball}>
@@ -17,7 +19,9 @@ export default function Switch({ currentId }: switchProps) {
             </figure>
             {currentId < 75 && (
                 <Link href={`/player/${currentId + 1}`} className={styles.next}>
-                    N
+                    <figure>
+                        <img src="/arrow_icon.png" alt="next player" />
+                    </figure>
                 </Link>
             )}
         </ul>

@@ -5,13 +5,24 @@
     align-items: center;
     gap: 1rem;
     margin: 0 0 2rem;
+    pointer-events: none;
 }
 
 .prev,
 .next {
     height: 2rem;
     width: 2rem;
-    background-color: aqua;
+    transition: transform 0.3s ease-out;
+    pointer-events: all;
+}
+
+.prev:hover,
+.next:hover {
+    transform: scale(1.3);
+}
+
+.prev img {
+    transform: rotate(180deg);
 }
 
 .bball {

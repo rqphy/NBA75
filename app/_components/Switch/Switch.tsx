@@ -12,7 +12,9 @@ export default function Switch({ currentId }: switchProps) {
                     P
                 </Link>
             )}
-            <div className={styles.bball}></div>
+            <figure className={styles.bball}>
+                <img src="/bball.png" alt="basketball icon" />
+            </figure>
             {currentId < 75 && (
                 <Link href={`/player/${currentId + 1}`} className={styles.next}>
                     N

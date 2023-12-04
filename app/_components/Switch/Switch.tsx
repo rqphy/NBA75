@@ -5,7 +5,6 @@ import Link from "next/link"
 import { useState } from "react"
 interface switchProps {
 	currentId: number
-	// transition: HTMLDivElement | null
 }
 
 export default function Switch({ currentId }: switchProps) {

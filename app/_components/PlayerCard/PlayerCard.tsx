@@ -7,58 +7,55 @@ import { useFrame } from "@react-three/fiber"
 import Poster from "../Poster/Poster"
 
 interface playerProps {
-    name: string
-    uid: number
-    index: number
+	name: string
+	uid: number
+	index: number
 }
 
 const numberOfPlanes = 76
 const sphereRadius = 4
-let x = 0
-let y = 0
-let z = 0
 
 export default function Player({ name, uid, index }: playerProps) {
-    const router = useRouter()
+	const router = useRouter()
 
-    const handleGroupClick = () => {
-        router.push(`/player/${index}`)
-    }
+	const handleGroupClick = () => {
+		router.push(`/player/${index}`)
+	}
 
-    const groupRef = useRef<Group>(null)
-    useFrame(() => {
-        groupRef.current?.lookAt(0, 0, 0)
-        groupRef.current?.rotateY(Math.PI)
-    })
+	const groupRef = useRef<Group>(null)
+	useFrame(() => {
+		groupRef.current?.lookAt(0, 0, 0)
+		groupRef.current?.rotateY(Math.PI)
+	})
 
-    const [cardPos, setCardPos] = useState<Vector3>(new Vector3(0, 0, 0))
+	const [cardPos, setCardPos] = useState<Vector3>(new Vector3(0, 0, 0))
 
-    useEffect(() => {
-        const phi = Math.acos(-1 + (2 * (index + 0.5)) / numberOfPlanes) // Polar angle
-        const theta = Math.sqrt(numberOfPlanes * Math.PI) * phi // Azimuthal angle
+	useEffect(() => {
+		const phi = Math.acos(-1 + (2 * (index + 0.5)) / numberOfPlanes) // Polar angle
+		const theta = Math.sqrt(numberOfPlanes * Math.PI) * phi // Azimuthal angle
 
-        const pos = new Vector3(
-            sphereRadius * Math.sin(phi) * Math.cos(theta),
-            sphereRadius * Math.sin(phi) * Math.sin(theta),
-            sphereRadius * Math.cos(phi)
-        )
+		const pos = new Vector3(
+			sphereRadius * Math.sin(phi) * Math.cos(theta),
+			sphereRadius * Math.sin(phi) * Math.sin(theta),
+			sphereRadius * Math.cos(phi)
+		)
 
-        setCardPos(pos)
-    }, [])
+		setCardPos(pos)
+	}, [])
 
-    return (
-        <group ref={groupRef} position={cardPos} onClick={handleGroupClick}>
-            <Poster index={index} />
-            <Text
-                position={[-0.28, 0.45, 0.05]}
-                rotation={[0, 0, Math.PI * 1.5]}
-                color="white"
-                anchorX="left"
-                anchorY="top"
-                scale={0.08}
-            >
-                {name}
-            </Text>
-        </group>
-    )
+	return (
+		<group ref={groupRef} position={cardPos} onClick={handleGroupClick}>
+			<Poster index={index} />
+			<Text
+				position={[-0.28, 0.45, 0.05]}
+				rotation={[0, 0, Math.PI * 1.5]}
+				color="white"
+				anchorX="left"
+				anchorY="top"
+				scale={0.08}
+			>
+				{name}
+			</Text>
+		</group>
+	)
 }

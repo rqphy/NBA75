@@ -29,6 +29,8 @@
 	box-sizing: content-box;
 	pointer-events: all;
 	cursor: pointer;
+	background: none;
+	border: none;
 }
 
 .prev:hover,

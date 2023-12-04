@@ -23,12 +23,12 @@ export default function Switch({ currentId }: switchProps) {
 			{activeTransition && <div className={styles.off}></div>}
 			<ul className={styles.switch}>
 				{currentId > 0 && (
-					<figure
+					<button
 						onClick={() => handleSwitchClick(currentId - 1)}
 						className={styles.prev}
 					>
 						<img src="/arrow_icon.png" alt="previous player" />
-					</figure>
+					</button>
 				)}
 				<Link href={"/"} className={styles.bball}>
 					<figure>
@@ -36,12 +36,12 @@ export default function Switch({ currentId }: switchProps) {
 					</figure>
 				</Link>
 				{currentId < 75 && (
-					<figure
+					<button
 						onClick={() => handleSwitchClick(currentId + 1)}
 						className={styles.next}
 					>
 						<img src="/arrow_icon.png" alt="next player" />
-					</figure>
+					</button>
 				)}
 			</ul>
 		</>

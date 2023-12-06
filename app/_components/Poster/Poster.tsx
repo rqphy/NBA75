@@ -24,9 +24,7 @@ export default function Poster({
 
 	useFrame(({ clock }) => {
 		// get uTime for shader
-		if (shaderRef) {
-			shaderRef.current.uTime += 0.003
-		}
+		shaderRef.current.uTime += 0.003
 	})
 	const [image] = useLoader(TextureLoader, [posterLink])
 

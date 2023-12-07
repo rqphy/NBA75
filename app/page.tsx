@@ -1,16 +1,12 @@
 import styles from "./css/page.module.css"
 import Experience from "./_components/Experience/Experience"
-import { promises as fs } from "fs"
+import playerList from "@/app/data/players.json"
 
 export default async function Home() {
-	const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
-
-	const data = JSON.parse(file)
-
 	return (
 		<main className={styles.main}>
 			<section className={styles.map}>
-				<Experience playerList={data} />
+				<Experience playerList={playerList} />
 			</section>
 		</main>
 	)

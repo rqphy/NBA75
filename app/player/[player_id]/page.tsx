@@ -1,16 +1,13 @@
 import styles from "../../css/player.module.css"
 import { promises as fs } from "fs"
 import Switch from "@/app/_components/Switch/Switch"
-import playerList from "@/app/players.json"
+import playerList from "@/app/data/players.json"
 
 interface pageProps {
 	params: { player_id: string }
 }
 
 export default async function page({ params }: pageProps) {
-	// const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
-
-	// const data = JSON.parse(playerList)
 	const player = playerList[Number(params.player_id)]
 
 	return (

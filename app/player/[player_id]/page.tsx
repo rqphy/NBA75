@@ -6,7 +6,7 @@ interface pageProps {
 }
 
 export default async function page({ params }: pageProps) {
-	const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
+	const file = await fs.readFile(process.cwd() + "/players.json", "utf8")
 
 	const data = JSON.parse(file)
 	const player = data[Number(params.player_id)]

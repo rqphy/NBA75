@@ -6,14 +6,15 @@ interface pageProps {
 }
 
 export default async function page({ params }: pageProps) {
-	const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
+	// const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
 
-	const data = JSON.parse(file)
-	const player = data[Number(params.player_id)]
+	// const data = JSON.parse(file)
+	// const player = data[Number(params.player_id)]
 
 	return (
 		<>
-			<div className={styles.transition}></div>
+			test
+			{/* <div className={styles.transition}></div>
 			<section className={styles.player}>
 				<div className={styles.container}>
 					<h1 className={styles.title}>{player.name}</h1>
@@ -26,7 +27,7 @@ export default async function page({ params }: pageProps) {
 					<p className={styles.story}>{player.story}</p>
 				</div>
 			</section>
-			<Switch currentId={Number(params.player_id)} />
+			<Switch currentId={Number(params.player_id)} /> */}
 		</>
 	)
 }

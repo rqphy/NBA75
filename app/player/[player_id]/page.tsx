@@ -1,6 +1,8 @@
 import styles from "../../css/player.module.css"
 import { promises as fs } from "fs"
 import Switch from "@/app/_components/Switch/Switch"
+import playerList from "@/app/players.json"
+
 interface pageProps {
 	params: { player_id: string }
 }
@@ -8,13 +10,12 @@ interface pageProps {
 export default async function page({ params }: pageProps) {
 	// const file = await fs.readFile(process.cwd() + "/app/players.json", "utf8")
 
-	// const data = JSON.parse(file)
-	// const player = data[Number(params.player_id)]
+	// const data = JSON.parse(playerList)
+	const player = playerList[Number(params.player_id)]
 
 	return (
 		<>
-			test
-			{/* <div className={styles.transition}></div>
+			<div className={styles.transition}></div>
 			<section className={styles.player}>
 				<div className={styles.container}>
 					<h1 className={styles.title}>{player.name}</h1>
@@ -27,7 +28,7 @@ export default async function page({ params }: pageProps) {
 					<p className={styles.story}>{player.story}</p>
 				</div>
 			</section>
-			<Switch currentId={Number(params.player_id)} /> */}
+			<Switch currentId={Number(params.player_id)} />
 		</>
 	)
 }

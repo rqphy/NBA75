@@ -45,7 +45,7 @@ export default function Player({ name, uid, index }: playerProps) {
 
 	return (
 		<group ref={groupRef} position={cardPos} onClick={handleGroupClick}>
-			<Poster index={index} />
+			<Poster index={index} uid={uid.toString()} />
 			<Text
 				position={[-0.28, 0.45, 0.05]}
 				rotation={[0, 0, Math.PI * 1.5]}

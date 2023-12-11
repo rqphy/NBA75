@@ -13,20 +13,17 @@ extend({ WaveShaderMaterial })
 
 interface posterProps {
 	index: number
-	posterLink?: string
+	uid?: string
 }
 
-export default function Poster({
-	index,
-	posterLink = "/posters/stephen_curry.jpg",
-}: posterProps) {
+export default function Poster({ index, uid = "stephen_curry" }: posterProps) {
 	const shaderRef = useRef<any>()
 
 	useFrame(({ clock }) => {
 		// get uTime for shader
 		shaderRef.current.uTime += 0.003
 	})
-	const [image] = useLoader(TextureLoader, [posterLink])
+	const [image] = useLoader(TextureLoader, [`/posters/${uid}.jpg`])
 
 	return (
 		<group>

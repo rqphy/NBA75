@@ -17,7 +17,10 @@ export default async function page({ params }: pageProps) {
                 <div className={styles.container}>
                     <h1 className={styles.title}>{player.name}</h1>
                     <figure className={styles.banner}>
-                        <img src="/banners/6781.jpg" alt={player.name} />
+                        <img
+                            src={`/banners/${player.uid}.jpg`}
+                            alt={player.name}
+                        />
                     </figure>
                     <p className={styles.story}>{player.story}</p>
                 </div>

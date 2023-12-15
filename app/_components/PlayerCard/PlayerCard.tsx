@@ -13,7 +13,7 @@ interface playerProps {
 }
 
 const numberOfPlanes = 76
-const sphereRadius = 4
+const sphereRadius = 3.9
 
 export default function Player({ name, uid, index }: playerProps) {
 	const router = useRouter()
@@ -25,7 +25,7 @@ export default function Player({ name, uid, index }: playerProps) {
 	const groupRef = useRef<Group>(null)
 	useFrame(() => {
 		groupRef.current?.lookAt(0, 0, 0)
-		groupRef.current?.rotateY(Math.PI)
+		// groupRef.current?.rotateY(Math.PI)
 	})
 
 	const [cardPos, setCardPos] = useState<Vector3>(new Vector3(0, 0, 0))

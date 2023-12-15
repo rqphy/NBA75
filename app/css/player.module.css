@@ -1,59 +1,63 @@
 .player {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .transition {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100%;
-	background-color: black;
-	z-index: 50;
-	animation: page_load 0.6s ease-out 0.1s forwards;
-	transform-origin: top;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    z-index: 50;
+    animation: page_load 0.6s ease-out 0.1s forwards;
+    transform-origin: top;
 }
 
 .container {
-	min-height: 85vh;
-	max-width: 980px;
-	width: 100%;
-	padding: 1rem;
+    min-height: 85vh;
+    max-width: 980px;
+    width: 100%;
+    padding: 1rem;
 }
 
 .title {
-	font-size: calc((68vw - 4.5rem) / 7);
-	text-align: center;
-	margin: 1rem 0;
-	font-weight: 600;
-	letter-spacing: -0.2rem;
+    font-size: calc((68vw - 4.5rem) / 7);
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 600;
+    letter-spacing: -0.2rem;
 }
 
 .banner {
-	width: 100%;
+    width: 100%;
 }
 
 .story {
-	margin: 1rem 0;
-	font-size: 2rem;
-	font-family: "Times New Roman", Times, serif;
-	line-height: 150%;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 150%;
 }
 
 @media (min-width: 979px) {
-	.title {
-		font-size: 5rem;
-	}
+    .title {
+        font-size: 5rem;
+    }
+
+    .story {
+        font-size: 2em;
+    }
 }
 
 @keyframes page_load {
-	0% {
-		transform: scaleY(1);
-	}
-	100% {
-		transform: scaleY(0);
-	}
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(0);
+    }
 }

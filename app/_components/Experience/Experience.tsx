@@ -11,6 +11,7 @@ interface player {
 }
 
 const cameraDistance = 0.1
+const maxCameraDistance = 7
 
 interface experienceProps {
 	playerList: player[]
@@ -26,7 +27,7 @@ export default function Experience({ playerList }: experienceProps) {
 		>
 			<OrbitControls
 				minDistance={cameraDistance}
-				maxDistance={cameraDistance}
+				maxDistance={maxCameraDistance}
 			/>
 			<mesh>
 				<sphereGeometry args={[4, 32, 16]} />

@@ -10,7 +10,7 @@ interface player {
 	story: string
 }
 
-const cameraDistance = 7.5
+const cameraDistance = 0.1
 
 interface experienceProps {
 	playerList: player[]

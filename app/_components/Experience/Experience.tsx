@@ -5,42 +5,42 @@ import { OrbitControls } from "@react-three/drei"
 import Player from "../PlayerCard/PlayerCard"
 
 interface player {
-	name: string
-	uid: number
-	story: string
+    name: string
+    uid: number
+    story: string
 }
 
-const cameraDistance = 0.1
+const cameraDistance = 7.5
 const maxCameraDistance = 7
 
 interface experienceProps {
-	playerList: player[]
+    playerList: player[]
 }
 
 export default function Experience({ playerList }: experienceProps) {
-	return (
-		<Canvas
-			camera={{
-				fov: 45,
-				position: [0, 0, cameraDistance],
-			}}
-		>
-			<OrbitControls
-				minDistance={cameraDistance}
-				maxDistance={maxCameraDistance}
-			/>
-			<mesh>
-				<sphereGeometry args={[4, 32, 16]} />
-				<meshBasicMaterial color={"white"} wireframe />
-			</mesh>
-			{playerList.map((player, index) => (
-				<Player
-					key={player.uid}
-					name={player.name}
-					uid={player.uid}
-					index={index}
-				/>
-			))}
-		</Canvas>
-	)
+    return (
+        <Canvas
+            camera={{
+                fov: 45,
+                position: [0, 0, cameraDistance],
+            }}
+        >
+            <OrbitControls
+                minDistance={cameraDistance}
+                maxDistance={cameraDistance}
+            />
+            <mesh>
+                <sphereGeometry args={[4, 32, 16]} />
+                <meshBasicMaterial color={"white"} wireframe />
+            </mesh>
+            {playerList.map((player, index) => (
+                <Player
+                    key={player.uid}
+                    name={player.name}
+                    uid={player.uid}
+                    index={index}
+                />
+            ))}
+        </Canvas>
+    )
 }

@@ -6,18 +6,18 @@ import "./css/globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-	title: "NBA75",
-	description: "NBA 75th Anniversary Team",
+    title: "NBA75",
+    description: "NBA 75th Anniversary Team in a ThreeJs presentation by rqphy",
 }
 
 export default function RootLayout({
-	children,
+    children,
 }: {
-	children: React.ReactNode
+    children: React.ReactNode
 }) {
-	return (
-		<html lang="en">
-			<body className={inter.className}>{children}</body>
-		</html>
-	)
+    return (
+        <html lang="en">
+            <body className={inter.className}>{children}</body>
+        </html>
+    )
 }

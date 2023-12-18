@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
     title: "NBA75",
     description: "NBA 75th Anniversary Team in a ThreeJs presentation by rqphy",
+    openGraph: {
+        images: ["/logo.png"],
+    },
 }
 
 export default function RootLayout({

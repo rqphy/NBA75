@@ -13,7 +13,7 @@ interface playerProps {
 }
 
 const numberOfPlanes = 76
-const sphereRadius = 4
+const sphereRadius = 4.1
 
 export default function Player({ name, uid, index }: playerProps) {
     const router = useRouter()

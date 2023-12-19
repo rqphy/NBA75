@@ -22,7 +22,7 @@ export default function Experience({ playerList }: experienceProps) {
         <Canvas
             camera={{
                 fov: 45,
-                position: [0, 0, cameraDistance],
+                position: [-1.666, 7.2, -1.321],
             }}
         >
             <OrbitControls

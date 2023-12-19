@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
     title: "NBA75",
     description: "NBA 75th Anniversary Team in a ThreeJs presentation by rqphy",
+    metadataBase: new URL("https://nba75.vercel.app/"),
     openGraph: {
         images: ["/logo.png"],
     },
